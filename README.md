@@ -26,12 +26,12 @@ This dataset shows Foodpanda customer and order details. It includes customer ag
 
 ## Installation Instructions
 * install all necessary libraries
-* open the .ipynb file "LESLIE DOLOT_Capstone Project.ipynb". This contains the data preprocessing, feature engineering, EDA, modelling, evaluation, and results.
+* open the .ipynb file "LESLIE_DOLOT_CapstoneProj_FPOrderCancellation.ipynb". This contains the data preprocessing, feature engineering, EDA, modelling, evaluation, and results.
 * The dataset can be viewed at the file:  Foodpanda Analysis Dataset.csv. This can also be downloaded from the KAGGLE site.
 
 
 ## How to run the code
-* open the .ipynb file "LESLIE DOLOT_Capstone Project.ipynb". All libraries are already imported in the code.
+* open the .ipynb file "LESLIE_DOLOT_CapstoneProj_FPOrderCancellation.ipynb". All libraries are already imported in the code.
   
 ## Results Summary
 * Supervised Classification algorithm was used to answer the problem statement, utilizing three methods: Random Forest, XGBoost and SVM. From these three, SVM has the highest F1 score. From this tool, the three potential influencers of order cancellations are the order timing (week in a year), quantity, and city of Karachi. Using bias testing methods, it was found that some features are underrepresented and that the current dataset is geographically skewed. With this, it is strongly recommended to collect more data on underrepresented cities.
